@@ -1,0 +1,26 @@
+//empieza contacto
+
+ .img_contacto{
+     height: 100%;
+     width: 100%;
+     object-fit: cover
+ }
+ .formulario{
+     width: 600px;
+     
+ }
+ .text_area{
+     width: 600px;
+   }
+ .div_formulario{
+     margin: auto;
+     width: 40%;
+     /* border: 3px solid green; */
+     padding: 10px;
+ }
+ .p_contacto{
+     color: $white-color;
+ }
+ button p{
+   color:$black-color;
+ }

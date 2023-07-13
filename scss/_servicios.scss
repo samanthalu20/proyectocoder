@@ -1,0 +1,50 @@
+//empieza portafolio y servicios
+
+ 
+  .header-v video {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+  }
+ 
+  
+  .h1_portafolio{
+      text-align: center;
+      margin-top: 50px;
+     
+  }
+ 
+  
+  .p_portafolio{
+    text-align: justify;
+    line-height: 1.8;
+  }
+    .bg-servicios{
+      background-color:$white-color;
+      width: 100%;
+      margin-top: 100px;
+      margin-bottom: 100px;
+
+    }
+    .li{
+      color:$black-color;
+    }
+   .h2_portafolio{
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: center;
+     }
+   .div_list_center{
+      margin: auto;
+      width: 30%;
+      padding: 20px
+   }
+  .ul_portafolio{
+      color:$white-color;
+  }
+  
+  
+
+ 
+  

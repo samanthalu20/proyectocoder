@@ -1,0 +1,453 @@
+@media (min-width: 320px) and (max-width: 480px) {
+
+  //inicio
+  .header_index {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .col{
+      width: 100%;
+    }
+  .col img,iframe{
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+   }
+   .col {
+    margin-top: 0;
+    padding-top: 5px;
+   }
+   .h2-index {
+      margin-top: 50px;
+      margin-top: 0;
+      padding-top: 0;
+      font-size: .7em;
+      text-align: center;
+      color:$white-color;
+    }
+    .m-p{
+      margin-top: 2px;
+      padding-top: 4px;
+    }
+    p{
+    text-align:none;
+    }
+   .mg-index{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    }
+    .img-index{
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 50px;
+    }
+    .img_sam{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      }
+      .p{
+        text-align: justify;
+       line-height: 1.8;
+       margin-bottom:0;
+      }
+       //comunes
+   .header-i img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+   }
+    
+
+    /*enpieza acerca de sam  */
+   .div_sam{
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .p{
+    font-size: .9em;
+    color: $white-color;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+  } 
+    /* Empieza portafolio */
+    .header-v video{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .container-p {
+      margin: 0;
+      padding-top: 20px;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-bottom: 30px;
+      width: 100%;
+      height: auto;
+     }
+    .p_portafolio{
+      font-size: .7em;
+      color: $white-color;
+    }
+    
+    h3{
+      font-size: 1em;
+    } 
+    iframe{
+     height:200px;
+    }
+    
+    /* Empieza contacto */
+    .div_formulario {
+      width: 100%;
+   }
+   .formulario{
+      width: auto;
+    }
+    .text_area{
+      width: 280px;
+      margin-left: 10px;
+      margin-right:10px;
+    }
+   button{
+      margin-left: 10px;
+   }
+   //tienda
+ 
+}
+
+@media (min-width: 480px) and (max-width: 600px){
+  //inicio
+  .header_index {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .col{
+      width: 100%;
+  }
+  .col {
+    margin-top: 0;
+    padding-top: 5px;
+   }
+   .h2-index {
+      font-size: 1.2em;
+    }
+    .m-p{
+      margin-top: 2px;
+      padding-top: 4px;
+    }
+    iframe{
+      height:400px;
+     }
+    p{
+      text-align:none;
+      font-size: 1em;
+    }
+   .mg-index{
+      width: auto;
+      height: auto;
+      object-fit: cover;
+    }
+    .img-index{
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 50px;
+    }
+    .img_sam{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      }
+       //comunes
+   .header-i img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+   }
+    
+
+    /*enpieza acerca de sam  */
+  
+  .p{
+    font-size: .9em;
+    color: $white-color;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+  } 
+    /* Empieza portafolio */
+    .header-v video{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .container-p {
+      margin: 0;
+      padding-top: 20px;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-bottom: 30px;
+      width: 100%;
+      height: auto;
+     }
+    .p_portafolio{
+      font-size: .7em;
+      color: $white-color;
+    }
+    
+    h3{
+      font-size: 1em;
+    } 
+  
+    
+    /* Empieza contacto */
+    .div_formulario {
+      width: 100%;
+   }
+   .formulario{
+      width: auto;
+    }
+    .text_area{
+      width: 280px;
+      margin-left: 10px;
+      margin-right:10px;
+    }
+   button{
+      margin-left: 10px;
+   }
+   //comunes
+   
+   h1{
+    font-size: 1em;
+   }
+   
+ }
+  
+  @media (min-width: 600px) and (max-width: 768px) {
+    .header_index {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+    .col{
+        width: 100%;
+      }
+    
+     .col img,iframe{
+      width: 100%;
+      margin-bottom: 0;
+      padding-bottom: 0;
+     }
+     .col {
+      margin-top: 0;
+      padding-top: 5px;
+     }
+     .h2-index {
+        margin-top: 50px;
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 1.5em;
+        text-align: center;
+        color:$white-color;
+      }
+      .m-p{
+        margin-top: 2px;
+        padding-top: 4px;
+      }
+      p{
+      text-align:none;
+      }
+     .mg-index{
+      width: auto;
+      height: auto;
+      object-fit: cover;
+      }
+      .img-index{
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 50px;
+      }
+      .img_sam{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+         //comunes
+     .header-i img{
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+     }
+      
+  
+      /*enpieza acerca de sam  */
+     .div_sam{
+      margin: 0;
+      padding-top: 20px;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-bottom: 10px;
+      width: 100%;
+    }
+    .p{
+      font-size: .9em;
+      color: $white-color;
+      margin-bottom: 50px;
+      padding-bottom: 80px;
+    } 
+      /* Empieza portafolio */
+      .header-v video{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+      .container-p {
+        margin: 0;
+        padding-top: 20px;
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-bottom: 30px;
+        width: 100%;
+        height: auto;
+       }
+      .p_portafolio{
+        font-size: .7em;
+        color: $white-color;
+      }
+      
+      h3{
+        font-size: 1em;
+      } 
+      iframe{
+       height:500px;
+      }
+      
+      /* Empieza contacto */
+      .div_formulario {
+        width: auto;
+     }
+     .formulario{
+        width: auto;
+      }
+      .text_area{
+        width: 400px;
+        margin-left: 10px;
+        margin-right:10px;
+      }
+     button{
+        margin-left: 10px;
+     }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .header_index {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+    h2{
+      font-size: 1.8em;
+    }
+    .img-index{
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 50px;
+    }
+    .col{
+      width: 100%;
+    }
+    .col img,iframe{
+      width: 100%;
+      height: auto;
+      margin-bottom: 5px;
+      padding-bottom: 20px;
+     }
+     iframe{
+      height:500px;
+     }
+    h2{
+      font-size: 2em;
+    }
+    p{
+      font-size: 1em;
+    }
+    .header-i img{
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+     }
+      /* Empieza portafolio */
+      .header-v video{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+  }
+  
+  
+  @media (min-width: 1358px)and (max-width: 2381px){
+   //index
+   .header_index {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+     
+  .col img,iframe{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+   }
+   .h1-index {
+    text-align: center;
+    position: relative;
+    font: 1.8em sans-serif;
+  }
+  .div_sam{
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    width: 70%;
+    height: auto;
+    // border: solid green 2px;
+  }
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+    //Acerca de sam
+     .div_sam{
+        
+            margin: auto;
+            width: 70%;
+            // border: 3px solid green;
+            padding: 10px;
+          
+      }
+      .p{
+        font-size: 1.2em;
+        color: $white-color;
+        /* text-align: justify; */
+        /* line-height: 1.3; */
+        margin-bottom: 50px;
+        padding-bottom: 80px;
+      } 
+      
+  }
+

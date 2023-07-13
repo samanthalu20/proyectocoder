@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  min-height: 100vh;
+  position: relative;
+}
+
+nav {
+  position: sticky;
+}
+
+.tex_center {
+  text-align: center;
+}
+
+.bg {
+  background-color: black;
+  background-image: url(../imagenes/fondo\ index.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.content_div {
+  width: 100%;
+  margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+  margin-top: 80px;
+  padding-top: 60px;
+}
+
+/*  */
+.h1-index {
+  text-align: center;
+  color: white;
+  position: relative;
+  font: 2em sans-serif;
+}
+/* .text_s{
+    font-size: 2.6em;
+} */
+
+h1 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  border-left: 1px solid white;
+  background-color: hsl(203, 50%, 5.5%);
+  animation: maquina 10s infinite alternate-reverse;
+}
+
+@keyframes maquina {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+/* empieza acerca de sam */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  width: 100%;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.img_sam {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.div_sam {
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 80px;
+  padding-left: 80px;
+  width: 100%;
+  height: 100%;
+  border: solid green 2px;
+}
+.p {
+  color: white;
+  text-align: justify;
+  line-height: 1.8;
+}
+.tex_h1 {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 25px;
+}
+
+/* contacto */
+.bg_contacto {
+  background-image: url(../imagenes/auriculares-teclado-midi-portatil-programa-crear-musica.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+.img_contacto {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.formulario {
+  width: 600px;
+}
+.text_area {
+  width: 600px;
+}
+.div_formulario {
+  margin: auto;
+  width: 40%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+.p_contacto {
+  color: white;
+}
+button p {
+  color: black;
+}
+/* Portafolio y servicios */
+.header img {
+  object-fit: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 900px;
+}
+
+.h1_portafolio {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+.container-p {
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 80px;
+  padding-left: 80px;
+  width: 100%;
+  height: 100%;
+  border: solid green 2px;
+}
+
+.p_portafolio {
+  color: white;
+  text-align: justify;
+  line-height: 1.8;
+}
+.h2_portafolio {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+.div_list_center {
+  margin: auto;
+  width: 30%;
+
+  padding: 20px;
+}
+.ul_portafolio {
+  color: white;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  padding-bottom: 50px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
+
+.overlay h3 {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+.div_videos_p {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+.margen {
+  margin-bottom: 30px;
+  padding-bottom: 0px;
+}
+
+/* inicia tienda */
+
+/* inicia responsive */
+
+@media (min-width: 320px) {
+  /* Agrega tus estilos específicos para pantallas medianas aquí */
+
+  .h1-index {
+    text-align: center;
+    color: white;
+    position: relative;
+    font: 0.75em sans-serif;
+  }
+  /*enpieza acerca de sam  */
+  .div_sam {
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+    border: solid green 2px;
+  }
+  .p {
+    font-size: 0.8em;
+    color: white;
+    /* text-align: justify; */
+    /* line-height: 1.3; */
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+  }
+  /* Empieza portafolio */
+  .header img {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+  }
+  .container-p {
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+    border: solid green 2px;
+  }
+  .p_portafolio {
+    font-size: 0.7em;
+    color: white;
+  }
+  .div_list_center {
+    border: solid green 2px;
+    margin: auto;
+    width: 100%;
+
+    padding: 20px;
+  }
+  .ul_portafolio {
+    color: white;
+    font-size: 0.7em;
+  }
+  div iframe {
+    width: auto;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  /* Empieza contacto */
+  .div_formulario {
+    width: 100%;
+  }
+  .formulario {
+    width: auto;
+  }
+  .text_area {
+    width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  button {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .content_div {
+    width: 100%;
+  }
+  .h1-index {
+    text-align: center;
+    color: white;
+    position: relative;
+    font: 1.7em sans-serif;
+  }
+  /* Empieza acerca de sam */
+  .p {
+    font-size: 0.9em;
+    color: white;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  /* empiza contacto */
+
+  .div_formulario {
+    width: 100%;
+    border: solid red;
+  }
+  .formulario {
+    width: 80%;
+  }
+  .text_area {
+    width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  button {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  /* Agrega tus estilos específicos para pantallas medianas aquí */
+  .h1-index {
+    text-align: center;
+    color: white;
+    position: relative;
+    font: 2.2em sans-serif;
+  }
+  .p {
+    font-size: 1.5em;
+    color: white;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+  }
+  /* empiza contacto */
+
+  .div_formulario {
+    width: 100%;
+    border: solid red;
+    padding-top: 100px;
+    padding-left: 15%;
+  }
+  .formulario {
+    width: 95%;
+  }
+  .text_area {
+    width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  button {
+    margin-left: 10px;
+  }
+}
+@media (min-width: 2381px) {
+  .product img {
+    width: auto;
+    height: auto;
+  }
+}

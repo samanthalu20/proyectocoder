@@ -1,0 +1,102 @@
+
+.header_index {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.img-index{
+  height: 900px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+
+  .h2-index {
+    text-align: center;
+    color: $white-color;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+
+h2 span{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position:absolute;
+    right: 0;
+    width: 0;
+    border-left: 1px solid $white-color;
+    background-color:$black-color;
+    animation: maquina 10s infinite alternate-reverse steps(51);
+}
+@keyframes maquina{
+    from{
+        width:100%;
+    }
+    to{
+        width: 0;
+    }
+
+}
+.mg-index{
+width: 550px;
+height: 400px;
+object-fit: cover;
+}
+.img_sam{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  padding-bottom: 50px;
+  .gallery-item {
+      position: relative;
+      overflow: hidden;
+      
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 100;
+      transition: transform 0.3s ease;
+    }
+    
+      .gallery-item:hover img {
+       transform: scale(1.1);
+    }
+    .gallery-item:hover .overlay {
+      opacity: 1;
+    }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  .overlay h3 {
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+}
+
+
+
+
+

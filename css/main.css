@@ -1,0 +1,705 @@
+@charset "UTF-8";
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  min-height: 100vh;
+  position: relative;
+}
+
+.header-i img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.bg_contacto {
+  background-image: url(../imagenes/10016491_27230.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Ajusta el color de fondo según tus necesidades */
+  z-index: 100; /* Asegúrate de que el z-index sea lo suficientemente alto para que esté por encima de otros elementos */
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1, h2, p {
+  color: white;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font: 3em sans-serif;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 1em;
+}
+
+p {
+  text-align: center;
+}
+
+.container-p {
+  margin: auto;
+  padding-top: 80px;
+  width: 80%;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+.header_index {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.img-index {
+  height: 900px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.h2-index {
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+h2 span {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  right: 0;
+  width: 0;
+  border-left: 1px solid white;
+  background-color: black;
+  animation: maquina 10s infinite alternate-reverse steps(51);
+}
+
+@keyframes maquina {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+.mg-index {
+  width: 550px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.img_sam {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  padding-bottom: 50px;
+}
+.gallery .gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+.gallery .gallery-item img {
+  width: 100%;
+  height: 100;
+  transition: transform 0.3s ease;
+}
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
+.gallery .gallery-item:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.overlay .overlay h3 {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  width: 100%;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+
+.img_mic {
+  width: 400px;
+}
+
+.p {
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 1px;
+}
+
+.tex_h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 25px;
+}
+
+.video-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.video-container-s video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-v video {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.h1_portafolio {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.p_portafolio {
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.bg-servicios {
+  background-color: white;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.li {
+  color: black;
+}
+
+.h2_portafolio {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.div_list_center {
+  margin: auto;
+  width: 30%;
+  padding: 20px;
+}
+
+.ul_portafolio {
+  color: white;
+}
+
+.img_contacto {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.formulario {
+  width: 600px;
+}
+
+.text_area {
+  width: 600px;
+}
+
+.div_formulario {
+  margin: auto;
+  width: 40%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+
+.p_contacto {
+  color: white;
+}
+
+button p {
+  color: black;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header_index {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .col {
+    width: 100%;
+  }
+  .col img, iframe {
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .col {
+    margin-top: 0;
+    padding-top: 5px;
+  }
+  .h2-index {
+    margin-top: 50px;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 0.7em;
+    text-align: center;
+    color: white;
+  }
+  .m-p {
+    margin-top: 2px;
+    padding-top: 4px;
+  }
+  p {
+    text-align: none;
+  }
+  .mg-index {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+  .img-index {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 50px;
+  }
+  .img_sam {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .p {
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 0;
+  }
+  .header-i img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  /*enpieza acerca de sam  */
+  .div_sam {
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .p {
+    font-size: 0.9em;
+    color: white;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+  }
+  /* Empieza portafolio */
+  .header-v video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .container-p {
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+  }
+  .p_portafolio {
+    font-size: 0.7em;
+    color: white;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  iframe {
+    height: 200px;
+  }
+  /* Empieza contacto */
+  .div_formulario {
+    width: 100%;
+  }
+  .formulario {
+    width: auto;
+  }
+  .text_area {
+    width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  button {
+    margin-left: 10px;
+  }
+}
+@media (min-width: 480px) and (max-width: 600px) {
+  .header_index {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .col {
+    width: 100%;
+  }
+  .col {
+    margin-top: 0;
+    padding-top: 5px;
+  }
+  .h2-index {
+    font-size: 1.2em;
+  }
+  .m-p {
+    margin-top: 2px;
+    padding-top: 4px;
+  }
+  iframe {
+    height: 400px;
+  }
+  p {
+    text-align: none;
+    font-size: 1em;
+  }
+  .mg-index {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+  .img-index {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 50px;
+  }
+  .img_sam {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .header-i img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  /*enpieza acerca de sam  */
+  .p {
+    font-size: 0.9em;
+    color: white;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+  }
+  /* Empieza portafolio */
+  .header-v video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .container-p {
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+  }
+  .p_portafolio {
+    font-size: 0.7em;
+    color: white;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  /* Empieza contacto */
+  .div_formulario {
+    width: 100%;
+  }
+  .formulario {
+    width: auto;
+  }
+  .text_area {
+    width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  button {
+    margin-left: 10px;
+  }
+  h1 {
+    font-size: 1em;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  .header_index {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .col {
+    width: 100%;
+  }
+  .col img, iframe {
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .col {
+    margin-top: 0;
+    padding-top: 5px;
+  }
+  .h2-index {
+    margin-top: 50px;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+  }
+  .m-p {
+    margin-top: 2px;
+    padding-top: 4px;
+  }
+  p {
+    text-align: none;
+  }
+  .mg-index {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+  .img-index {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 50px;
+  }
+  .img_sam {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .header-i img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  /*enpieza acerca de sam  */
+  .div_sam {
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .p {
+    font-size: 0.9em;
+    color: white;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+  }
+  /* Empieza portafolio */
+  .header-v video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .container-p {
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+  }
+  .p_portafolio {
+    font-size: 0.7em;
+    color: white;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  iframe {
+    height: 500px;
+  }
+  /* Empieza contacto */
+  .div_formulario {
+    width: auto;
+  }
+  .formulario {
+    width: auto;
+  }
+  .text_area {
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  button {
+    margin-left: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header_index {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+  .img-index {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 50px;
+  }
+  .col {
+    width: 100%;
+  }
+  .col img, iframe {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+  }
+  iframe {
+    height: 500px;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .header-i img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  /* Empieza portafolio */
+  .header-v video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+@media (min-width: 1358px) and (max-width: 2381px) {
+  .header_index {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  .col img, iframe {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+  }
+  .h1-index {
+    text-align: center;
+    position: relative;
+    font: 1.8em sans-serif;
+  }
+  .div_sam {
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    width: 70%;
+    height: auto;
+  }
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .div_sam {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+  }
+  .p {
+    font-size: 1.2em;
+    color: white;
+    /* text-align: justify; */
+    /* line-height: 1.3; */
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+  }
+}
+.header img {
+  object-fit: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+}
+
+/*# sourceMappingURL=main.css.map */
