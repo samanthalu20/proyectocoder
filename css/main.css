@@ -220,7 +220,6 @@ h2 span {
 }
 
 .p {
-  text-align: justify;
   line-height: 1.8;
   margin-bottom: 1px;
 }
@@ -253,7 +252,7 @@ h2 span {
   margin-top: 50px;
 }
 
-.p_portafolio {
+.p_servicios {
   text-align: justify;
   line-height: 1.8;
 }
@@ -263,10 +262,6 @@ h2 span {
   width: 100%;
   margin-top: 100px;
   margin-bottom: 100px;
-}
-
-.li {
-  color: black;
 }
 
 .h2_portafolio {
@@ -280,10 +275,6 @@ h2 span {
   margin: auto;
   width: 30%;
   padding: 20px;
-}
-
-.ul_portafolio {
-  color: white;
 }
 
 .img_contacto {
@@ -338,7 +329,7 @@ button p {
     margin-top: 5%;
     margin-bottom: 2px;
     padding-bottom: 10px;
-    font-size: 0.77em;
+    font-size: 0.8em;
     text-align: center;
   }
   .gallery-item img {
@@ -368,37 +359,19 @@ button p {
     object-fit: cover;
   }
   /*enpieza acerca de sam  */
-  .div_sam {
-    margin: 0;
-    padding-top: 20px;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-bottom: 10px;
-    width: 100%;
-  }
   .p {
     color: white;
-    margin-bottom: 50px;
-    padding-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 8px;
+    overflow: auto;
   }
   /* Empieza portafolio */
   .header-v video {
     width: 100%;
     height: auto;
     object-fit: cover;
-  }
-  .container-p {
-    margin: 0;
-    padding-top: 20px;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-bottom: 30px;
-    width: 100%;
-    height: auto;
-  }
-  .p_portafolio {
-    font-size: 0.7em;
-    color: white;
   }
   main {
     margin: 4px;
@@ -410,6 +383,17 @@ button p {
   }
   h3 {
     font-size: 1em;
+  }
+  .p_servicios {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+  }
+  .mr {
+    padding-right: 15px;
   }
   /* Empieza contacto */
   .div_formulario {

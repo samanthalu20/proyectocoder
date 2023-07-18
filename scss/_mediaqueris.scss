@@ -25,7 +25,7 @@
       margin-top: 5%;
       margin-bottom: 2px;
       padding-bottom: 10px;
-      font-size: .77em;
+      font-size: .8em;
       text-align: center;
      }
      .gallery-item img {
@@ -59,19 +59,15 @@
     
 
     /*enpieza acerca de sam  */
-   .div_sam{
-    margin: 0;
-    padding-top: 20px;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-bottom: 10px;
-    width: 100%;
-  }
+
   .p{
-   
     color: $white-color;
-    margin-bottom: 50px;
-    padding-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 8px;
+    overflow: auto;
+
   } 
     /* Empieza portafolio */
     .header-v video{
@@ -79,19 +75,16 @@
       height: auto;
       object-fit: cover;
     }
-    .container-p {
-      margin: 0;
-      padding-top: 20px;
-      padding-right: 25px;
-      padding-left: 25px;
-      padding-bottom: 30px;
-      width: 100%;
-      height: auto;
-     }
-    .p_portafolio{
-      font-size: .7em;
-      color: $white-color;
-    }
+    // .container-p {
+    //   margin: 0;
+    //   padding-top: 20px;
+    //   padding-right: 25px;
+    //   padding-left: 25px;
+    //   padding-bottom: 0px;
+    //   width: 100%;
+    //   height: 50;
+    //  }
+    
     main{
       margin: 4px;
       padding: 2px
@@ -103,9 +96,19 @@
     h3{
       font-size: 1em;
     } 
-    // iframe{
-    //  height:200px;
-    // }
+    //empieza servicios
+    .p_servicios{
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: justify;
+      line-height: 1.8;
+      margin-bottom: 0px;
+      padding-bottom: 0;
+    } 
+    .mr{
+      padding-right:  15px;
+     }
+    
     
     /* Empieza contacto */
     .div_formulario {
