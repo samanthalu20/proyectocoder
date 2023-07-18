@@ -12,6 +12,11 @@ body {
   position: relative;
 }
 
+main {
+  margin: 20px;
+  padding: 30px;
+}
+
 .header-i img {
   width: 100%;
   height: 700px;
@@ -77,11 +82,37 @@ footer {
   height: 100vh;
 }
 
-.img-index {
-  height: 900px;
-  width: 100%;
-  object-fit: cover;
+.container-audifonos {
   margin-bottom: 50px;
+  padding-bottom: 10px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.myp {
+  margin-top: 50px;
+  padding-top: 150px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.iframe iframe {
+  margin-top: 5;
+  padding-top: 0;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 400px;
+}
+
+.mypb {
+  margin-top: 50px;
+  padding-top: 80px;
+}
+
+.img-index {
+  object-fit: cover;
+  width: 100%;
+  height: 800px;
 }
 
 .h2-index {
@@ -89,8 +120,8 @@ footer {
   color: white;
   position: relative;
   margin-top: 15px;
-  margin-bottom: 30px;
-  padding-top: 30px;
+  margin-bottom: 20px;
+  padding-top: 10px;
   padding-bottom: 100px;
 }
 
@@ -288,45 +319,38 @@ button p {
   .header_index {
     position: relative;
     width: 100%;
+    height: 100%;
+  }
+  .col img {
+    width: 100%;
+  }
+  .col {
+    width: 100%;
+    margin: 4px;
+    padding: 2px;
+  }
+  .iframe iframe {
+    margin-bottom: 10px;
+    width: 100%;
     height: auto;
-  }
-  .col {
-    width: 100%;
-  }
-  .col img, iframe {
-    width: 100%;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  .col {
-    margin-top: 0;
-    padding-top: 5px;
   }
   .h2-index {
-    margin-top: 50px;
-    margin-top: 0;
-    padding-top: 0;
-    font-size: 0.7em;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding-bottom: 0;
+    font-size: 0.77em;
     text-align: center;
-    color: white;
   }
-  .m-p {
-    margin-top: 2px;
-    padding-top: 4px;
-  }
-  p {
-    text-align: none;
-  }
-  .mg-index {
-    width: auto;
-    height: auto;
-    object-fit: cover;
+  .gallery-item img {
+    width: 100%;
+    height: 100;
+    transition: transform 0.3s ease;
   }
   .img-index {
     height: auto;
     width: 100%;
     object-fit: cover;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .img_sam {
     width: 100%;
@@ -353,7 +377,6 @@ button p {
     width: 100%;
   }
   .p {
-    font-size: 0.9em;
     color: white;
     margin-bottom: 50px;
     padding-bottom: 80px;
@@ -377,11 +400,16 @@ button p {
     font-size: 0.7em;
     color: white;
   }
+  main {
+    margin: 4px;
+    padding: 2px;
+  }
+  p {
+    font-size: 0.9em;
+    text-align: none;
+  }
   h3 {
     font-size: 1em;
-  }
-  iframe {
-    height: 200px;
   }
   /* Empieza contacto */
   .div_formulario {
@@ -403,39 +431,31 @@ button p {
   .header_index {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
+  }
+  .col img {
+    width: 100%;
+    height: 90%;
   }
   .col {
     width: 100%;
+    margin: 4px;
+    padding: 2px;
   }
-  .col {
-    margin-top: 0;
-    padding-top: 5px;
+  .iframe iframe {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 350px;
   }
   .h2-index {
-    font-size: 1.2em;
-  }
-  .m-p {
-    margin-top: 2px;
-    padding-top: 4px;
-  }
-  iframe {
-    height: 400px;
-  }
-  p {
-    text-align: none;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
     font-size: 1em;
   }
   .mg-index {
     width: auto;
     height: auto;
     object-fit: cover;
-  }
-  .img-index {
-    height: auto;
-    width: 100%;
-    object-fit: cover;
-    margin-bottom: 50px;
   }
   .img_sam {
     width: 100%;
@@ -470,11 +490,7 @@ button p {
     height: auto;
   }
   .p_portafolio {
-    font-size: 0.7em;
     color: white;
-  }
-  h3 {
-    font-size: 1em;
   }
   /* Empieza contacto */
   .div_formulario {
@@ -491,47 +507,50 @@ button p {
   button {
     margin-left: 10px;
   }
+  h3 {
+    font-size: 1em;
+  }
+  p {
+    text-align: none;
+    font-size: 1em;
+  }
   h1 {
     font-size: 1em;
+  }
+  main {
+    margin: 4px;
+    padding: 2px;
   }
 }
 @media (min-width: 600px) and (max-width: 768px) {
   .header_index {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
+  }
+  .col img {
+    width: 100%;
   }
   .col {
     width: 100%;
+    margin: 4px;
+    padding: 2px;
   }
-  .col img, iframe {
+  .iframe iframe {
+    margin-bottom: 10px;
     width: 100%;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  .col {
-    margin-top: 0;
-    padding-top: 5px;
+    height: 400px;
   }
   .h2-index {
-    margin-top: 50px;
     margin-top: 0;
     padding-top: 0;
     font-size: 1.5em;
     text-align: center;
     color: white;
   }
-  .m-p {
-    margin-top: 2px;
-    padding-top: 4px;
-  }
   p {
     text-align: none;
-  }
-  .mg-index {
-    width: auto;
-    height: auto;
-    object-fit: cover;
+    font-size: 0.79em;
   }
   .img-index {
     height: auto;
@@ -559,7 +578,6 @@ button p {
     width: 100%;
   }
   .p {
-    font-size: 0.9em;
     color: white;
     margin-bottom: 50px;
     padding-bottom: 80px;
@@ -580,14 +598,10 @@ button p {
     height: auto;
   }
   .p_portafolio {
-    font-size: 0.7em;
     color: white;
   }
   h3 {
     font-size: 1em;
-  }
-  iframe {
-    height: 500px;
   }
   /* Empieza contacto */
   .div_formulario {
@@ -604,6 +618,13 @@ button p {
   button {
     margin-left: 10px;
   }
+  nav {
+    width: 100%;
+  }
+  main {
+    margin: 4px;
+    padding: 2px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .header_index {
@@ -614,23 +635,18 @@ button p {
   h2 {
     font-size: 1.8em;
   }
-  .img-index {
-    height: auto;
+  .col img {
     width: 100%;
-    object-fit: cover;
-    margin-bottom: 50px;
   }
   .col {
     width: 100%;
+    margin: 2px;
+    padding: 1px;
   }
-  .col img, iframe {
+  .iframe iframe {
+    margin-bottom: 10px;
     width: 100%;
-    height: auto;
-    margin-bottom: 5px;
-    padding-bottom: 20px;
-  }
-  iframe {
-    height: 500px;
+    height: 400px;
   }
   h2 {
     font-size: 2em;

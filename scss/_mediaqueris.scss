@@ -4,46 +4,41 @@
   .header_index {
     position: relative;
     width: 100%;
+    height: 100%;
+  }
+  .col img{
+    width: 100%;
+  }
+  .col{
+    width: 100%;
+    margin: 4px;
+    padding: 2px
+  }
+ 
+ 
+  .iframe iframe {
+    margin-bottom: 10px;
+    width: 100%;
     height: auto;
   }
-  
-  .col{
-      width: 100%;
-    }
-  .col img,iframe{
-    width: 100%;
-    margin-bottom: 0;
-    padding-bottom: 0;
-   }
-   .col {
-    margin-top: 0;
-    padding-top: 5px;
-   }
    .h2-index {
-      margin-top: 50px;
-      margin-top: 0;
-      padding-top: 0;
-      font-size: .7em;
+      margin-top: 10px;
+      margin-bottom: 2px;
+      padding-bottom: 0;
+      font-size: .77em;
       text-align: center;
-      color:$white-color;
+     }
+     .gallery-item img {
+      width: 100%;
+      height: 100;
+      transition: transform 0.3s ease;
     }
-    .m-p{
-      margin-top: 2px;
-      padding-top: 4px;
-    }
-    p{
-    text-align:none;
-    }
-   .mg-index{
-    width: auto;
-    height: auto;
-    object-fit: cover;
-    }
-    .img-index{
+    
+   .img-index{
       height: auto;
       width: 100%;
       object-fit: cover;
-      margin-bottom: 50px;
+      margin-bottom: 20px;
     }
     .img_sam{
       width: 100%;
@@ -73,7 +68,7 @@
     width: 100%;
   }
   .p{
-    font-size: .9em;
+   
     color: $white-color;
     margin-bottom: 50px;
     padding-bottom: 80px;
@@ -97,13 +92,20 @@
       font-size: .7em;
       color: $white-color;
     }
-    
+    main{
+      margin: 4px;
+      padding: 2px
+    }
+    p{
+      font-size: .9em;
+      text-align:none;
+    }
     h3{
       font-size: 1em;
     } 
-    iframe{
-     height:200px;
-    }
+    // iframe{
+    //  height:200px;
+    // }
     
     /* Empieza contacto */
     .div_formulario {
@@ -129,40 +131,35 @@
   .header_index {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
+  }
+
+  .col img{
+    width: 100%;
+    height: 90%;
   }
   .col{
-      width: 100%;
+    width: 100%;
+    margin: 4px;
+    padding: 2px
   }
-  .col {
-    margin-top: 0;
-    padding-top: 5px;
-   }
+ 
+  .iframe iframe {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 350px;
+  }
    .h2-index {
-      font-size: 1.2em;
-    }
-    .m-p{
-      margin-top: 2px;
-      padding-top: 4px;
-    }
-    iframe{
-      height:400px;
-     }
-    p{
-      text-align:none;
-      font-size: 1em;
-    }
-   .mg-index{
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+   font-size: 1em;
+  }
+  .mg-index{
       width: auto;
       height: auto;
       object-fit: cover;
     }
-    .img-index{
-      height: auto;
-      width: 100%;
-      object-fit: cover;
-      margin-bottom: 50px;
-    }
+  
     .img_sam{
       width: 100%;
       height: 100%;
@@ -200,15 +197,8 @@
       height: auto;
      }
     .p_portafolio{
-      font-size: .7em;
       color: $white-color;
     }
-    
-    h3{
-      font-size: 1em;
-    } 
-  
-    
     /* Empieza contacto */
     .div_formulario {
       width: 100%;
@@ -225,10 +215,20 @@
       margin-left: 10px;
    }
    //comunes
-   
+   h3{
+    font-size: 1em;
+  } 
+  p{
+    text-align:none;
+    font-size: 1em;
+  }
    h1{
     font-size: 1em;
    }
+   main{
+    margin: 4px;
+    padding: 2px
+  }
    
  }
   
@@ -236,41 +236,34 @@
     .header_index {
       position: relative;
       width: 100%;
-      height: auto;
+      height: 100%;
+     }
+     .col img{
+      width: 100%;
     }
     .col{
-        width: 100%;
-      }
-    
-     .col img,iframe{
       width: 100%;
-      margin-bottom: 0;
-      padding-bottom: 0;
-     }
-     .col {
-      margin-top: 0;
-      padding-top: 5px;
-     }
+      margin: 4px;
+      padding: 2px
+    }
+   .iframe iframe {
+      margin-bottom: 10px;
+      width: 100%;
+      height: 400px;
+    }
      .h2-index {
-        margin-top: 50px;
         margin-top: 0;
         padding-top: 0;
         font-size: 1.5em;
         text-align: center;
         color:$white-color;
       }
-      .m-p{
-        margin-top: 2px;
-        padding-top: 4px;
-      }
+     
       p{
       text-align:none;
+      font-size: .79em;
       }
-     .mg-index{
-      width: auto;
-      height: auto;
-      object-fit: cover;
-      }
+     
       .img-index{
         height: auto;
         width: 100%;
@@ -300,7 +293,7 @@
       width: 100%;
     }
     .p{
-      font-size: .9em;
+     
       color: $white-color;
       margin-bottom: 50px;
       padding-bottom: 80px;
@@ -321,16 +314,14 @@
         height: auto;
        }
       .p_portafolio{
-        font-size: .7em;
+       
         color: $white-color;
       }
       
       h3{
         font-size: 1em;
       } 
-      iframe{
-       height:500px;
-      }
+     
       
       /* Empieza contacto */
       .div_formulario {
@@ -347,6 +338,13 @@
      button{
         margin-left: 10px;
      }
+     nav{
+      width: 100%;
+     }
+     main{
+      margin: 4px;
+      padding: 2px
+    }
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     .header_index {
@@ -357,24 +355,37 @@
     h2{
       font-size: 1.8em;
     }
-    .img-index{
-      height: auto;
+    .col img{
       width: 100%;
-      object-fit: cover;
-      margin-bottom: 50px;
     }
     .col{
       width: 100%;
+      margin: 2px;
+      padding: 1px
     }
-    .col img,iframe{
+   .iframe iframe {
+      margin-bottom: 10px;
       width: 100%;
-      height: auto;
-      margin-bottom: 5px;
-      padding-bottom: 20px;
-     }
-     iframe{
-      height:500px;
-     }
+      height: 400px;
+    }
+    // .img-index{
+    //   height: auto;
+    //   width: 100%;
+    //   object-fit: cover;
+    //   margin-bottom: 50px;
+    // }
+    // .col{
+    //   width: 100%;
+    // }
+    // .col img,iframe{
+    //   width: 100%;
+    //   height: auto;
+    //   margin-bottom: 5px;
+    //   padding-bottom: 20px;
+    //  }
+    //  iframe{
+    //   height:500px;
+    //  }
     h2{
       font-size: 2em;
     }
