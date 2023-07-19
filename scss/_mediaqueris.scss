@@ -40,6 +40,13 @@
       object-fit: cover;
       margin-bottom: 20px;
     }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 10px;
+      padding-bottom: 50px;
+    }
+
     .img_sam{
       width: 100%;
       height: 100%;

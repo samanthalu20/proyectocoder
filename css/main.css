@@ -172,7 +172,7 @@ h2 span {
   transition: transform 0.3s ease;
 }
 .gallery .gallery-item:hover img {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .gallery .gallery-item:hover .overlay {
   opacity: 1;
@@ -342,6 +342,12 @@ button p {
     width: 100%;
     object-fit: cover;
     margin-bottom: 20px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    padding-bottom: 50px;
   }
   .img_sam {
     width: 100%;
