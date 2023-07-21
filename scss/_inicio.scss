@@ -30,8 +30,11 @@
 width: 100%;
  text-align: justify;
  margin-left: 15px;
- background-image:url(./imagenes/estrellas.webp);
- background-position: auto
+ 
+}
+.text-column{
+  background-image:url(/imagenes/estrellas.webp);
+  background-position: auto
 }
 .text-column p{
   margin-top: 50px;
