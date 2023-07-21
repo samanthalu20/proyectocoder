@@ -6,29 +6,46 @@
   object-fit: cover;
 }
 .container-audifonos  {
-  margin-bottom: 50px;
-  padding-bottom: 10px;
-  width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width:70%;
   object-fit: cover;
 }
 
-.myp{
-margin-top: 50px;
-padding-top: 150px;
-margin-bottom: 0;
-padding-bottom: 0;
+.container-colum {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px; 
+  width: 100%; 
+   height: 600px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 60px;
 }
-.iframe iframe {
-  margin-top: 5;
-  padding-top: 0;
-  margin-bottom: 50px;
-  width: 100%;
-  height: 400px;
+.text-column {
+width: 100%;
+ text-align: justify;
+ margin-left: 15px;
+ background-image:url(/imagenes/estrellas.webp);
+ background-position: auto
 }
-.mypb{
+.text-column p{
   margin-top: 50px;
-  padding-top: 80px;
+  padding-top: 100px;
 }
+
+.video-column iframe {
+  /* Estilos opcionales para ajustar el tamaño del video dentro de la columna */
+ width: 100%;
+  height:100%;
+  margin: 0;
+}
+
+
 .img-index{
   object-fit: cover;
   width: 100%;
@@ -40,7 +57,7 @@ padding-bottom: 0;
     position: relative;
     margin-top: 15px;
     margin-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 80px;
     padding-bottom: 100px;
 }
 
