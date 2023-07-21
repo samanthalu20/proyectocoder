@@ -112,8 +112,7 @@ footer {
 }
 
 .text-column {
-  background-image: url(/imagenes/estrellas.webp);
-  background-position: auto;
+  background-image: url(../imagenes/estrellas.webp);
 }
 
 .text-column p {
