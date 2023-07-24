@@ -1,0 +1,28 @@
+
+
+
+    .center  {
+        margin-top: 30px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     
+  .bg-error{
+    background-color: white;
+  }
+  .center-regreso {
+    margin: auto;
+    width: 50%;
+    border: 3px solid $black-color ;
+    padding: 10px;
+   
+  }
+  .color-h1{
+    color: $black-color;
+   
+}
+.color-h1 h1{
+    text-decoration: none;
+}
