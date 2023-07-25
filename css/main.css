@@ -1,6 +1,6 @@
 @charset "UTF-8";
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -76,11 +76,6 @@ footer {
   margin-top: 100px;
 }
 
-footer {
-  position: sticky;
-  bottom: 0;
-}
-
 .header_index {
   position: relative;
   width: 100%;
@@ -114,10 +109,13 @@ footer {
   width: 100%;
   text-align: justify;
   margin-left: 15px;
+  margin-right: 15px;
+  padding-right: 5px;
 }
 
 .text-column {
   background-image: url(../imagenes/estrellas.webp);
+  margin: 10px;
 }
 
 .text-column p {
