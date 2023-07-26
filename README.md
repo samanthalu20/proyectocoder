@@ -47,34 +47,24 @@ https://www.freepik.es/
 https://www.netlify.com/?attr=homepage-modal
 
 
-## Instalaci
-sitio web.
-- CSS3: Estilos y diseño.
-- Bootstrap: Agilizar la maquetación y mejorar la presentación visual.
-- JavaScript: Funcionalidades interactivas y dinámicas.
-
 ## Licencia 📄
 
 Este sitio web no tiene una licencia específica, ya que es un proyecto personal y no se permite su reproducción o uso sin el consentimiento del autor.
 
 ## Autores ✒️
-* ** Samantha Luviano
-
-
+* Samantha Luviano
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia Samantha Luviano- mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia Samantha Luviano- mira el archivo
+## Agradecimiento 🎁
 
-## Expresiones de Gratitud 🎁
+* Agradecimiento a la profe Laura Avalle por ser la mejor profesora del mundo mundial de desarrollo web
+* A mi tutor Ismael Jesus Vasconcel por sus correciones 
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
+
 
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+
