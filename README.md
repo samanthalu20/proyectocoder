@@ -60,7 +60,7 @@ Este proyecto está bajo la Licencia Samantha Luviano- mira el archivo
 ## Agradecimiento 🎁
 
 * Agradecimiento a la profe Laura Avalle por ser la mejor profesora del mundo mundial de desarrollo web
-* A mi tutor Ismael Jesus Vasconcel por sus correciones 
+* A mi tutor Ismael Jesus Vasconcel por sus correciones y atenciones
 
 
 
