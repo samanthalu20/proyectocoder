@@ -24,8 +24,24 @@ El objetivo principal de esta página web es presentar un portafolio profesional
 
 9- "Finalmente, para hacer el sitio web accesible en línea, se extrajo el servidor Netlify para alojar el proyecto y asegurar su disponibilidad en Internet."
 
-## Funcionalidades
 
+## Funcionalidades de cada ventana 💻
+
+ página de inicio (Index)
+-  con una breve introducción
+-   eccióny acceso rápido a las diferentes secciones del sitio.
+  
+ pgina "Acerca de mí":
+- con información detallada sobre la experiencia, habilidades y formación académica.
+  
+  Página de "Portafolio":
+ - que exhibirá una selección de  proyectos  experiencia trabajos anteriores.
+  
+ Página de "Servicios":
+- donde se detallarán los servicios que se ofrecen y cómo  ayudar a los clientes.
+  
+ Página de "Contacto":
+-  con un formulario para que los visitantes puedan comunicarse directamente.
 
 ### Herramientas 🔧
 
