@@ -1,6 +1,6 @@
-# proyectocoderhouse ![image](https://github.com/samanthalu20/proyectocoder/assets/131316465/9c33bab8-76c0-4f9f-b7a0-899546e18712)
+# Proyecto Coder House ![image](https://github.com/samanthalu20/proyectocoder/assets/131316465/9c33bab8-76c0-4f9f-b7a0-899546e18712)
 
-# Poryecto final de desarrollo web 🤟😎🤘
+## Poryecto final de desarrollo web 🤟😎🤘
 
 El objetivo principal de esta página web es presentar un portafolio profesional para una ingeniera en audio, con el propósito de atraer nuevos clientes y oportunidades. En esta plataforma, se exhibirá su destacada trayectoria en el campo del audio, sus especialidades y habilidades, así como una colección de fotos y videos que forman parte de su currículum.
 
